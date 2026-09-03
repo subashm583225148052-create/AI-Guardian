@@ -1,0 +1,6 @@
+{
+  "name": "AI Guardian",
+  "description": "Banking fraud-protection layer designed to protect vulnerable and senior customers from scams, social engineering, and fraudulent transactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

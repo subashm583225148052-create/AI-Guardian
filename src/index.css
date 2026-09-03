@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* High contrast mode utilities */
+.high-contrast {
+  --tw-bg-opacity: 1;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .hc-card {
+  background-color: #121212 !important;
+  border-color: #facc15 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .hc-text-yellow {
+  color: #fde047 !important;
+}
+
+.high-contrast .hc-text-green {
+  color: #4ade80 !important;
+}
+
+.high-contrast .hc-text-red {
+  color: #f87171 !important;
+}
